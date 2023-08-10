@@ -1,0 +1,13 @@
+name = "dynamic"
+main = "src/index.ts"
+
+kv_namespaces = [
+  { binding = "dynamic", id = "", preview_id = "" }
+]
+
+[vars]
+ALLOW_ORIGIN = "*"
+IMAGE_PATH = ""
+
+[triggers]
+crons = ["0 */1 * * *"]

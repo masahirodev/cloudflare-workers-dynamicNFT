@@ -1,0 +1,20 @@
+{
+  "name": "cloudflare-workers-dynamic-nft",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230801.0",
+    "@types/jest": "^29.5.3",
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.4",
+    "wrangler": "^3.5.0"
+  },
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.14"
+  }
+}
